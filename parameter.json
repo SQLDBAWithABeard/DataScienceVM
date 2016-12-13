@@ -1,0 +1,63 @@
+{
+    "$schema":  "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion":  "1.0.0.0",
+    "parameters":  {
+                       "location":  {
+                                        "value":  "ukwest"
+                                    },
+                       "virtualMachineName":  {
+                                                  "value":  "DSVMekqTF"
+                                              },
+                       "virtualMachineSize":  {
+                                                  "value":  "Standard_DS1_v2"
+                                              },
+                       "adminUsername":  {
+                                             "value":  "Rob"
+                                         },
+                       "storageAccountName":  {
+                                                  "value":  "dsstorageekqtf"
+                                              },
+                       "virtualNetworkName":  {
+                                                  "value":  "dsnetekqtf"
+                                              },
+                       "networkInterfaceName":  {
+                                                    "value":  "dsinterekqtf"
+                                                },
+                       "networkSecurityGroupName":  {
+                                                        "value":  "dssecgrpekqtf"
+                                                    },
+                       "adminPassword":  {
+                                             "value":  "System.Security.SecureString"
+                                         },
+                       "storageAccountType":  {
+                                                  "value":  "Standard_LRS"
+                                              },
+                       "diagnosticsStorageAccountName":  {
+                                                             "value":  "diagdsekqtf"
+                                                         },
+                       "diagnosticsStorageAccountType":  {
+                                                             "value":  "Standard_LRS"
+                                                         },
+                       "diagnosticsStorageAccountId":  {
+                                                           "value":  "Microsoft.Storage/storageAccounts/diagdsekqtf"
+                                                       },
+                       "addressPrefix":  {
+                                             "value":  "10.0.0.0/24"
+                                         },
+                       "subnetName":  {
+                                          "value":  "default"
+                                      },
+                       "subnetPrefix":  {
+                                            "value":  "10.0.0.0/24"
+                                        },
+                       "publicIpAddressName":  {
+                                                   "value":  "dspubipekqTF"
+                                               },
+                       "publicIpAddressType":  {
+                                                   "value":  "Dynamic"
+                                               },
+                        "resourcegroupname":  {
+                                                   "value":  "DynamicekqTF"
+                                               }
+                   }
+}
