@@ -55,9 +55,6 @@
                                                },
                        "publicIpAddressType":  {
                                                    "value":  "Dynamic"
-                                               },
-                        "resourcegroupname":  {
-                                                   "value":  "DynamicekqTF"
                                                }
                    }
 }
